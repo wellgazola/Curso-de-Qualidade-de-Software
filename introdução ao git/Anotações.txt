@@ -1,0 +1,90 @@
+Aqui estão alguns dos comandos básicos do Git que você precisa conhecer:
+Configuração Inicial
+sh
+CopiarEditar
+git config --global user.name "Seu Nome"
+git config --global user.email "seuemail@example.com"
+Define seu nome e e-mail para os commits.
+Criar e Clonar Repositórios
+sh
+CopiarEditar
+git init
+Inicializa um repositório Git na pasta atual.
+sh
+CopiarEditar
+git clone <url-do-repositorio>
+Clona um repositório remoto para sua máquina.
+Controle de Versão Básico
+sh
+CopiarEditar
+git status
+Mostra o estado atual do repositório.
+sh
+CopiarEditar
+git add <arquivo>
+git add .
+Adiciona um arquivo (ou todos os arquivos) à área de staging.
+sh
+CopiarEditar
+git commit -m "Mensagem do commit"
+Salva as alterações no repositório local.
+Trabalhando com Branches
+sh
+CopiarEditar
+git branch
+Lista todas as branches locais.
+sh
+CopiarEditar
+git branch <nome-da-branch>
+Cria uma nova branch.
+sh
+CopiarEditar
+git checkout <nome-da-branch>
+git switch <nome-da-branch>
+Muda para a branch especificada.
+sh
+CopiarEditar
+git checkout -b <nome-da-branch>
+git switch -c <nome-da-branch>
+Cria e muda para a nova branch.
+Atualização e Envio de Alterações
+sh
+CopiarEditar
+git pull origin <branch>
+Baixa e mescla as alterações do repositório remoto.
+sh
+CopiarEditar
+git push origin <branch>
+Envia suas alterações para o repositório remoto.
+Histórico e Comparação
+sh
+CopiarEditar
+git log
+Exibe o histórico de commits.
+sh
+CopiarEditar
+git diff
+Mostra as diferenças entre versões de arquivos.
+Reverter Alterações
+sh
+CopiarEditar
+git reset --hard <commit>
+Volta para um commit anterior, descartando todas as mudanças.
+sh
+CopiarEditar
+git revert <commit>
+Cria um novo commit que reverte um commit específico.
+Mesclagem e Resolução de Conflitos
+sh
+CopiarEditar
+git merge <nome-da-branch>
+Une outra branch à sua branch atual.
+sh
+CopiarEditar
+git rebase <nome-da-branch>
+Move sua branch para a frente da branch alvo.
+Caso tenha conflitos, edite os arquivos, adicione as mudanças e finalize o rebase com:
+sh
+CopiarEditar
+git rebase --continue
+Esses são os comandos essenciais do Git. Precisa de algo mais específico? 🚀
